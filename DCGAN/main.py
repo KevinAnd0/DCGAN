@@ -7,7 +7,7 @@ from loss_functions import generator_loss, discriminator_loss
 import time
 from IPython import display
 
-path = r"C:\git\basic GAN\Apple Braeburn"
+path = r""
 img_height = 64
 img_width = 64
 batch_size = 32
