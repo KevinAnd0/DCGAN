@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
 
-cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
+cross_entropy = keras.losses.BinaryCrossentropy(from_logits=True)
 
 def discriminator_loss(real_output, fake_output):
     real_loss = cross_entropy(tf.ones_like(real_output), real_output)
